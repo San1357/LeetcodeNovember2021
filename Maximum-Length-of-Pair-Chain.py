@@ -1,6 +1,8 @@
 # UsinG LIS
 # Time complexity  : O(N^2)
 # Space complexity : O(N)
+# Problem name : Maximum-Length-of-Pair-Chain
+# Problem no. : 646
 
 
 
