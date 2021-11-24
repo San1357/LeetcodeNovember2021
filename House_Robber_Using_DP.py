@@ -8,7 +8,9 @@
 #time: O(N)
 #space : O(N)
 
-def dp(i):
+class Solution:
+    def rob(self, nums: List[int]) -> int:
+        def dp(i):
             # Base cases
             if i == 0: 
                 return nums[0]            
@@ -20,3 +22,4 @@ def dp(i):
         
         memo = {}
         return dp(len(nums) - 1)
+        
